@@ -1,0 +1,3 @@
+files: {predictions: data/Teko/data/eme_test_res-cfg13.txt, reference: data/Teko/data/eme_test.txt}
+metric: emma-2
+scores: {f-score: 0.6258, precision: 1.0, recall: 0.4554}

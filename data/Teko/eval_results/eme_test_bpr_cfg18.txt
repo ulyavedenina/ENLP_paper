@@ -1,0 +1,3 @@
+files: {predictions: data/Teko/data/eme_test_res-cfg18.txt, reference: data/Teko/data/eme_test.txt}
+metric: bpr
+scores: {f-score: 0.583, precision: 0.9011, recall: 0.4309}
