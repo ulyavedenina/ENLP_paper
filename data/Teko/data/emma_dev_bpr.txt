@@ -1,0 +1,3 @@
+files: {predictions: data/Teko/data/eme_dev_res.txt, reference: data/Teko/data/eme_dev_true.txt}
+metric: bpr
+scores: {f-score: 0.592, precision: 0.5726, recall: 0.6128}

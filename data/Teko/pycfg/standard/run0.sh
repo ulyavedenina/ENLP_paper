@@ -1,0 +1,1 @@
+./run-ag.sh eme_traindev.txt final_grammar.txt 500 output-traindev.cfg1-s.txt trace-traindev.cfg1-s.txt grammar-traindev.cfg1-s.txt
