@@ -53,7 +53,7 @@ write_grammar(appended_grammar, final_grammar_path)
 # code, and it only affects Turkish (for its special lowercasing and uppercasing).
 
 # path to the produced output during the PYAGS training
-pyags_output_grammar_path = '/Users/ulyavedenina/Documents/MorphAGram/data/Teko/pycfg/standard/output/output-traindev.cfg19.txt'
+pyags_output_grammar_path = '/data/Teko/pycfg/standard/output/output-traindev.cfg19.txt'
 
 segmentation_model = parse_segmentation_output(pyags_output_grammar_path,
                                                'PrefixMorphs', 'Stem', 'SuffixMorphs', '/Users/ulyavedenina/Documents/MorphAGram/data/Teko/pycfg/standard/output/segmentation-traindev.cfg19.txt',
@@ -72,4 +72,4 @@ morph_out_info = analyze_output(output_path, gold_path)
 # ---evaluation---
 # evaluation for BPR and Emma-2 was performed with morphoeval library using the following script:
 # morphoeval [--metric] gold_values_file predicted_value_file output_file
-# the results are stored in /Users/ulyavedenina/Documents/MorphAGram/data/Teko/data
+# the results are stored in /data/Teko/data
